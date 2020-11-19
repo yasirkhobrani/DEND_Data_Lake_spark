@@ -2,6 +2,14 @@
 ## About Sparkify
 Sparkify is a music startup, they store songs data and their logs in separate JSON files, analyzing those data becomes diffcult, in order to handle those large data, they need to process and extract data using ETL pipelines, then store it in the destination database.
 
+# Database Schema
+## Sparkify destination database will have the following tables:
+
+Songplay (The fact table)
+Songs (Dimensional table from song_data json files)
+Artists (Dimensional table from song_data json files)
+Users (Dimensional table from log_data json files)
+Time (Dimensional table from Timestamp (ts) Column)
 
 ## ETL Pipline
 Extract Transform and Load data:
